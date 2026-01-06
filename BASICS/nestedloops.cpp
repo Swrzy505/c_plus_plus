@@ -1,15 +1,25 @@
 #include<iostream>
 
 int main(){
-    //break = break out of a loop
-    // continue = skip current iteration
+    int rows;
+    int cols;
+    char symbol;
 
-    for(int i = 1;i<=20;i++){
-        if(i == 13){
-            continue;
+    std::cout << "Enter the no. of rows: ";
+    std::cin >> rows;
+
+    std::cout << "Enter the no.of cols: ";
+    std::cin >> cols;
+
+    std::cout << "Enter the symbol: ";
+    std::cin >> symbol;
+
+    for(int i = 1;i<=rows;i++){
+        for(int j = 1;j<=cols;j++){
+            std::cout << symbol ;
         }
-        std::cout << i << '\n';
+        std::cout << '\n';
     }
-
+    
     return 0;
 }
