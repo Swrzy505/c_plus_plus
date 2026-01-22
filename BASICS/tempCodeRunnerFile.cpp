@@ -1,1 +1,2 @@
-std::cout << "Your Choice: ";
+        students[i] = students [0];
+        continue;
