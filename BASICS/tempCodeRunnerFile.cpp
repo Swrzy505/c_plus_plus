@@ -1,2 +1,4 @@
-        students[i] = students [0];
-        continue;
+        // else if(checktie(spaces)){
+        //     running = false;
+        //     break;
+        // };
